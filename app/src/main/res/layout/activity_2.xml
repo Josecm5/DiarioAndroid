@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        
+    <LinearLayout
+        android:background="@drawable/gradient_background"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    </LinearLayout>
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:text="Editar nota"
+        android:textColor="#FFFFFF"
+        android:textSize="45dp"
+        android:layout_marginLeft="100dp"/>
+    <EditText
+        android:id="@+id/EditText"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="383dp"
+        android:layout_height="50dp"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:onClick="GuardarTexto"
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="250dp"
+        android:text="Guardar" />
+
+    <Button
+        android:onClick="Cancelar"
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="250dp"
+        android:text="Cancelar"/>
+</RelativeLayout>
